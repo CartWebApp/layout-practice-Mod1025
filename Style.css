@@ -1,0 +1,7 @@
+.Nav-bar a {
+    justify-content: space-between;
+    align-items: center;
+}
+.hero {
+    background-image: url(layout-01-assets/img11.jpg);
+}
