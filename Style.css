@@ -1,11 +1,12 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /* Nav-bar*/
 .Nav-bar {
-    background-color: gray;
+    background-color: #383E4C;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -50,8 +51,14 @@ p{
 }
 .Indivial-box {
     background-color: #f0f0f0;
-    padding-bottom: 25px;
     flex-basis: 15%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.Indivial-box p{
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 .Indivial-box-2-0 {
     background-color: #f0f0f0;
@@ -59,35 +66,56 @@ p{
     padding-bottom: 25px;
 }
 .headline-Group1-1{
-    color: green;
+    color: #28a745;
     padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
 }
 .button-Group1-1{
-    display: inline-block;
-
-    text-decoration: none;
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
-    font-weight: bold;
     background-color: #28a745;
 }
-.Indivial-box a{
-    align-self: center;
-}
 .headline-Group1-2{
-    color: red;
+    color: #1686C1;
     padding-left: 20px;
+    text-align: left;
 }
-.button-Group1-2{
-
+.button-Group1-2{  
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #1686C1;
 }
 .headline-Group1-3{
-    color: blue;
     padding-left: 20px;
+    text-align: left;
 }
-.button-Group1-3{
-
+.button-Group1-3{   
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #852406;
+}
+.Indivial-box-2-0 {
+    text-align: left;
+    color: #000000;
+}
+.headline-Group1-4 {
+    text-align: center;
+    color: black;
+}
+.button-Group1 {
+    align-self: flex-end;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+.button-Group1:last-child {
+    margin-left: 65%;
 }
 /*Our Seveices section*/
 /*header*/
@@ -111,20 +139,41 @@ p{
     margin-top: 5%;
     max-width: 74%;
     gap: 33px;
-
 }
+
 .Indivial-box-3-0 {
     background-color: #f0f0f0;
     padding-bottom: 25px;
     flex-basis: 15%;
+    text-align: center;
+}
+.Indivial-box-3-0 p{
+    text-align: left;
+    padding-bottom: 10px;
 }
 .One-big-Indivial-box {
     background-color: #f0f0f0;
     flex-basis: 35%;
     padding-bottom: 25px;
+    text-align: left;
+}
+.One-big-Indivial-box h3 {
+    padding-left: 20px;
+}
+.button-Group2 {
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-right: 10px;
+}
+.button-Group2:last-child {
+    margin-left: 20px;
 }
 /*Contact Form*/
 .Contact-Form {
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,34 +242,38 @@ textarea {
     margin-bottom: 0;
 }
 .submit-btn {
-    background-color: #333;
+    background-color: #262628;
     color: #fff;
-    border: 1px solid #ffffff;
+    border: 1px solid #8F8F90;
     padding: 10px 30px;
     width: auto;
     align-self: flex-start;
     cursor: pointer;
     font-size: 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: background-color 0.3s ease;
+    margin-left: 15%;
 }
 /*footer*/
 .Footer {
     text-align: center;
-    font-size: medium;
     font-style: italic;
     color: #9c9c9c;
     border-bottom: 1px solid #eeeeee;
+}
+Footer P{
+    margin-right: 17px;
 }
 /*address*/
 .address {
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    color: #949494;
+    color: #686868;
     font-size: small;
     font-style: normal;
 }
 .address img{
-    align-self: flex-end;
+    position: absolute;
+    right: 1rem;
 }
